@@ -81,6 +81,7 @@ html, body {
   line-height: 2;
   font-family: var(--ff-inter-tight);
   color: var(--color-text-body);
+  background-color:black;
 }
 
 p {
@@ -422,7 +423,7 @@ body::-webkit-scrollbar-thumb {
 
 /*Back to Top btn End*/
 .container.custom-container {
-  margin-left: calc((100% - 1320px) / 2);
+  margin-left: 0px;
   width: auto;
   min-width: auto;
   max-width: inherit;
@@ -430,13 +431,13 @@ body::-webkit-scrollbar-thumb {
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
   .container.custom-container {
-    margin-left: calc((100% - 1143px) / 2);
+    margin-left: 0px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .container.custom-container {
-    margin-left: calc((100% - 970px) / 2);
+    margin-left: 0px;
   }
 }
 
@@ -458,7 +459,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (min-width: 992px) {
   .container.custom-container {
-    margin-left: calc((100% - 970px) / 2);
+    margin-left: 0px;
     width: auto;
     min-width: auto;
     max-width: inherit;
@@ -467,7 +468,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (min-width: 1200px) {
   .container.custom-container {
-    margin-left: calc((100% - 1143px) / 2);
+    margin-left: 0px;
     width: auto;
     min-width: auto;
     max-width: inherit;
@@ -476,7 +477,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (min-width: 1400px) {
   .container.custom-container {
-    margin-left: calc((100% - 1320px) / 2);
+    margin-left: 0px;
     width: auto;
     min-width: auto;
     max-width: inherit;
@@ -3609,6 +3610,7 @@ display: flex;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background: radial-gradient(circle at 35% 30%, #4CBEA269 1%, #0000 55% ), radial-gradient(circle at 95% 10%, #7a4df2b2 5%, transparent 60%), radial-gradient(circle at 0 5%, #f27b4d66 5%, #0000 25% );
 }
 
 @media only screen and (max-width: 991.98px) {
