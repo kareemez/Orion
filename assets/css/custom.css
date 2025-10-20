@@ -1416,6 +1416,7 @@ display: flex;
 
 @media only screen and (max-width: 767.98px) {
   .values-box-wrap {
+    display: block;
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
