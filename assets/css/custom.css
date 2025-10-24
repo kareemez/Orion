@@ -509,7 +509,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .section-title .desc {
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.7;
   margin-top: 24px;
 }
@@ -981,6 +981,7 @@ body::-webkit-scrollbar-thumb {
   font-weight: 500;
   -webkit-transition: .3s;
   transition: .3s;
+  font-size: 12px;
 }
 
 .mainmenu li ul li > a:hover {
@@ -1249,7 +1250,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .about-wrap .about-info {
-  max-width: 576px;
+  max-width: 745px;
+  font-size: 18px;
 }
 
 .about-wrap .about-info p {
@@ -1453,11 +1455,12 @@ display: flex;
 }
 
 .values-box-wrap .single-values-box .values-icon {
-  border-radius: 8px;
+border-radius: 8px;
   border: 0.5px solid rgba(255, 255, 255, 0.3);
   background: rgba(255, 255, 255, 0.06);
-  width: 40px;
-  height: 40px;
+  width: 70px;
+  height: 70px;
+  padding: 3px;
 }
 
 .values-box-wrap .single-values-box .values-icon svg, .values-box-wrap .single-values-box .values-icon i {
