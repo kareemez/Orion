@@ -29,19 +29,23 @@
     <link rel="stylesheet" href="./assets/css/custom.css">
     <!-- Meanmenu CSS -->
 </head>
+<style>
+    body {
+        direction: rtl;
+        text-align: right;
+        font-family: 'Tajawal', sans-serif !important;
+    }  
+
+    h1,h2,h4,h3,h5,h6,p,a,span,li {
+        text-align: right;
+    }
+    </style>
 <body >
 
    
     <!-- Preloader -->
 
-<div class="preloader" style="">
-        <div class="spinner-wrap">
-            <div class="preloader-logo">
-                <img alt="" class="img-fluid" src=".\assets\img\loader.gif">
-            </div>
-            <div class="spinner" style="border-top: 3px solid #FE2494;"></div>
-        </div>
-    </div>
+
 
     <!-- Preloader End -->
 
@@ -107,12 +111,10 @@
                 <div class="col-lg-9">
                     <div class="nav-wrap d-flex justify-content-between align-items-center">
                         <div class="text-right mainmenu" style="display: block;">
-                            <ul class="home-menu">                              
-                              <li><a href="contactAr.html">تواصل معنا</a></li>
-                              <li><a href="#message-sec">رسالة المؤسس</a></li>
-                              <li><a href="#mission-sec">المهمة</a></li>
-                              <li><a href="#values-sec">القيم</a></li>
-                              <li><a href="#vision-sec">الرؤية</a></li>
+                            <ul class="home-menu">
+                                <li><a href="ar.html">الرئيسية</a></li>
+                              <li><a href="#about-sec">من نحن</a></li>
+                            <li><a href="#message-sec">رسالة المؤسس</a></li>
                               <li class="dropdown"><a href="#services-sec"><span>الخدمات</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                                 <ul>
                                 <li><a href="#srv1"> الاستشارات الاستراتيجية </a></li>                             
@@ -121,9 +123,11 @@
                                 <li><a href="#srv4">الاستشارات الإدارية</a></li>
                                 <li><a href="#srv5">حلول الاستدامة</a></li>
                                 </ul>
-                            </li>
-                              <li><a href="#about-sec">من نحن</a></li>
-                              <li><a href="ar.html">الرئيسية</a></li>
+                            </li>  
+                              <li><a href="#vision-sec">الرؤية</a></li>
+                              <li><a href="#values-sec">القيم</a></li>
+                              <li><a href="#mission-sec">المهمة</a></li>                                
+                              <li><a href="contactAr.html">تواصل معنا</a></li>                              
                             </ul>
                             <div class="flex-shrink-0 pt-3 pb-5 menu-btn-wrap d-lg-none ps-4">
                                                                 <a class="common-btn border-style border-style-transparent" href="index.html">English</a>
@@ -149,29 +153,18 @@
     <div class="overflow-hidden hero-area hero-area-canvas minus-margin position-relative z-index-one" >
         <div class="container position-relative z-index-one">
             <div class="row justify-content-between align-items-center ">
-                <div class="order-1 mt-5 col-lg-5 order-lg-0 mt-lg-0">
-                    <div class="hero-info">
-                        <span class="d-inline-block text_color_white text-uppercase hero-sub-spn"><img src="./assets/img/star.png" width="25"> انطلق إلى آفاق جديدة!</span>
-                        <h1 class="text_color_white">حوّل رؤيتك مع أوريون إنوفيشن</h1>
-                        <p class="text_color_light_white hero-text">أطلق العنان لمستوى جديد من الابتكار والكفاءة مع أوريون إنوفيشن، وحوّل منظومتك إلى عالم مليء بالإمكانيات الفريدة.</p>
-                        <div class="flex-wrap mt-4 two-btn-wrap d-flex mt-lg-5">
-                            <a class="common-btn bg-white-style" href="contact.html">
-                                ابدأ الآن
-                                                                <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g transform="scale(-1, 1) translate(-24, 0)">
-                                        <path d="M21.7061 12.7083L14.707 19.7073C14.512 19.9023 14.256 20.0003 14 20.0003C13.744 20.0003 13.488 19.9023 13.293 19.7073C12.902 19.3163 12.902 18.6842 13.293 18.2933L18.5859 13.0003H3C2.447 13.0003 2 12.5523 2 12.0003C2 11.4483 2.447 11.0003 3 11.0003H18.5859L13.293 5.70731C12.902 5.31631 12.902 4.68425 13.293 4.29325C13.684 3.90225 14.316 3.90225 14.707 4.29325L21.7061 11.2923C21.7991 11.3853 21.8721 11.4952 21.9231 11.6182C22.0241 11.8622 22.0241 12.1384 21.9231 12.3824C21.8721 12.5054 21.7991 12.6153 21.7061 12.7083Z" fill="currentColor"></path>
-                                    </g>
-                                </svg>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
                 <div class="col-lg-5 order-0 order-lg-1">
                     <div class="hero-img-wrap section-middle">
                     <img src=".\assets\img\logos\hero-sphere.png" width="450">
                 </div>
                 </div>
+                <div class="order-1 mt-5 col-lg-5 order-lg-0 mt-lg-0">
+                    <div class="hero-info">
+                        <span class="d-inline-block text_color_white text-uppercase hero-sub-spn"><img src="./assets/img/star.png" width="25"> انطلق إلى آفاق جديدة!</span>
+                        <h1 class="text_color_white">مع أوريون إنوفيشن، نُمّكن استشارات التحّول التي تُحدث أثًرا ملموساً</h1>                       
+                    </div>
+                </div>
+            
             </div>
         </div>
 
@@ -225,29 +218,58 @@
     </div>
 
     <!-- Hero End -->
-
-
     <!-- About -->
     <section id="about-sec" class="about-area bg_color_black">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div style="justify-content: space-evenly;" class="about-wrap bg_color_white d-flex flex-column flex-lg-row ">
-                       
-                        <div class="about-info " style="">
-                            <p class="disc " style="text-align:right;font-size: 21px;">أوريون إنوفيشن هي شركة استشارات سعودية تأسست لتسريع نمو الاعمال وتحفيز الابتكار داخل المنظمات. مستوحاة من كوكبة الجبار التي ترمز إلى القوة والرؤية المستقبلية، نجسد التزامنا بتحسين الأداء، وبناء المرونة، وتعزيز الابتكار، وتحقيق التناغم، وتوجيه المسار نحو تقديم حلول استشارية متكاملة تساعد المنظمات على الازدهار والتفوق في بيئة أعمال متغيرة. </p>
-                            
-                        </div>
-                         <div class="section-title">
-                            <span class="sub-title d-inline-block">من نحن</span>
+                       <div class="section-title">
+                            <span class="sub-title text-center d-inline-block"></span>
                             <h2 class="title"><span>عن أوريون إنوفيشن</span></h2>
                         </div>
+                        <div class="about-info " style="">
+                            <p class="disc " style="text-align:right;font-size: 21px;"> هي شركة استشارات سعودية تأسست لتسريع نمو الاعمال وتحفيز الابتكار داخل المنظمات. مستوحاة من كوكبة الجبار التي ترمز إلى القوة والرؤية المستقبلية، نجسد التزامنا بتحسين الأداء، وبناء المرونة، وتعزيز الابتكار، وتحقيق التناغم، وتوجيه المسار نحو تقديم حلول استشارية متكاملة تساعد المنظمات على الازدهار والتفوق في بيئة أعمال متغيرة.</p>
+                            
+                        </div>
+                         
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- About End -->
+<!-- Message -->
+    <section id="message-sec" class="bg_color_deep_blue pt-120  ">
+        <div class="container">
+            <div class="row align-items-center justify-content-between gy-4">
+                
+<div class="col-xl-3 col-lg-4">
+                    <img alt="About Innovation Dimensions" class="img-fluid w-100 h-100" src=".\assets\img\logos\OrionCore.png">
+                </div>
+                <div class="col-xl-9 col-lg-8">
+                    <div class="about-ai-info">
+                        <div class="section-title gradient-sub-title" style="text-align: end;">
+<h2 class="title text_color_white">رسالة المؤسِّس </h2>                
+                
+                            <h4 class="text_color_white">في أوريون نؤمن بأن كل تحٍد يجعل في طيّاته فرصة للتحّول. وتتمثل رسالتنا في تمكين المؤسسات واألفراد من إطالق كامل إمكاناتهم، من خالل تقديم إرشاٍد استراتيجي وحلو ٍل عملية ومقاربا ٍت إنسانية تحّول التحديات إلى فرص. ا يساعد عمالءنا على اجتياز التعقيدات، والتناسق مع إمكاناتهم الحقيقية، والمضي قدًما بثقة. وكما تُلهمنا كوكبة "الجبار"، نطمح أن نكون مرجعًا موثوقً نحن لسنا مجرد مستشارين، بل شركاء في رحلتكم. ومن خالل الدمج بين الرؤية االستراتيجية، والحلول العملية، والمقاربات المرتكزة على اإلنسان، تلتزم أوريون بتحويل الطموحات إلى إنجازات، والضبابية إلى فرص
+                                <br />
+فريق أوريون--
+
+</h4>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="section-border d-flex justify-content-center">
+            <img src="data:image/webp;base64,UklGRuwBAABXRUJQVlA4WAoAAAAYAAAAJwUAAAAAQUxQSKoAAAABGYAg/KcriOh/imDYSFKbk3hE/+UicE775wYiJsBA2jbMQNtfhQpd0zWYqKI4AYBMEiCgEcVkEv5uc9HQXgYajCcha1yILKQwKASZmICLpRqu9I74xVmAMFeZf0vIGFIU4tji6rB4J5kkTN9004nCdzUbKBDEWQiyoj4DNb0aMHgjIO1vgJ4CpaGGE1O+8uAS1lsP+By29Il6MtncabsrVOIBKxqrazqhE1ZQOCBaAAAAsAcAnQEqKAUBAD5RKJJGo6KhoSEoAHAKCWlu4XMwAKLDN9Q4cOHDhw4cOHDhw4cOHDhw4cOHDhw4cOHDhw4cOHDhwySQAAD+/58pp//+oLwAAAK3/tFAAAAARVhJRroAAABFeGlmAABJSSoACAAAAAYAEgEDAAEAAAABAAAAGgEFAAEAAABWAAAAGwEFAAEAAABeAAAAKAEDAAEAAAACAAAAEwIDAAEAAAABAAAAaYcEAAEAAABmAAAAAAAAAEgAAAABAAAASAAAAAEAAAAGAACQBwAEAAAAMDIxMAGRBwAEAAAAAQIDAACgBwAEAAAAMDEwMAGgAwABAAAA//8AAAKgBAABAAAAKAUAAAOgBAABAAAAAQAAAAAAAAA=" alt="">
+        </div>
+        
+    </section>
+   
+    <!-- Message End -->
 
     <!-- Services End -->
 <section id="services-sec" class="overflow-hidden service-area bg_color_black pt-120 pb-120 position-relative z-index-one">
@@ -256,7 +278,6 @@
             <div class="col-lg-8">
                 <div class="text-center section-title">
                     <h2 class="title text_color_white text-anim" style="perspective: 400px;"><div style="display: block; text-align: center; position: relative; translate: none; rotate: none; scale: none; transform-origin: 318px 36px 0px; transform: translate3d(0px, 0px, 0px); opacity: 1;"><div style="display: block; text-align: center; position: relative; translate: none; rotate: none; scale: none; transform-origin: 318px 36px 0px; transform: translate3d(0px, 0px, 0px); opacity: 1;">خدماتنا</div></div></h2>
-                    <p class="desc text_color_light_white">توفر أبعاد الابتكار حلولًا مخصصة لتحقيق نمو مستدام، وتمكين المؤسسات من استراتيجيات تتماشى مع رؤية السعودية 2030.</p>
                 </div>
             </div>
         </div>
@@ -396,39 +417,7 @@
     </section>
 <!-- Mission End-->
 
-  <!-- Message -->
-    <section id="message-sec" class="bg_color_deep_blue">
-        <div class="container">
-            <div class="row align-items-center justify-content-between gy-4">
-                
-                <div class="col-xl-9 col-lg-8">
-                    <div class="about-ai-info">
-                        <div class="section-title gradient-sub-title" style="text-align: end;">
-<h2 class="title text_color_white">رسالة المؤسِّس </h2>                
-                
-                            <h4 class="text_color_white">في ORION نؤمن بأن كل تحدٍ يحمل في طياته فرصة للتحوّل. وتتمثل رسالتنا في تمكين المؤسسات والأفراد من إطلاق كامل إمكاناتهم، من خلال تقديم إرشاد استراتيجي وحلول عملية ومقاربات إنسانية تحول التحديات إلى فرص.
-
-وكما يُلهمنا اسمنا المأخوذ من مجموعة النجوم “الجبار”، نطمح أن نكون مرجعًا موثوقًا يساعد عملاءنا على اجتياز التعقيدات، والاتساق مع إمكاناتهم الحقيقية، والمضي قدمًا بثقة.
-
-لسنا مجرد مستشارين، بل شركاء في رحلتكم. ومن خلال الدمج بين الرؤية الاستراتيجية والحلول العملية والمقاربات المرتكزة على الإنسان، تلتزم ORION بتحويل الطموحات إلى إنجازات، والضبابية إلى فرص.
-
-</h4>
-                        </div>
-                    </div>
-                </div>
-                
-<div class="col-xl-3 col-lg-4">
-                    <img alt="About Innovation Dimensions" class="img-fluid w-100 h-100" src=".\assets\img\logos\OrionCore.png">
-                </div>
-            </div>
-        </div>
-        <div class="section-border d-flex justify-content-center">
-            <img src="data:image/webp;base64,UklGRuwBAABXRUJQVlA4WAoAAAAYAAAAJwUAAAAAQUxQSKoAAAABGYAg/KcriOh/imDYSFKbk3hE/+UicE775wYiJsBA2jbMQNtfhQpd0zWYqKI4AYBMEiCgEcVkEv5uc9HQXgYajCcha1yILKQwKASZmICLpRqu9I74xVmAMFeZf0vIGFIU4tji6rB4J5kkTN9004nCdzUbKBDEWQiyoj4DNb0aMHgjIO1vgJ4CpaGGE1O+8uAS1lsP+By29Il6MtncabsrVOIBKxqrazqhE1ZQOCBaAAAAsAcAnQEqKAUBAD5RKJJGo6KhoSEoAHAKCWlu4XMwAKLDN9Q4cOHDhw4cOHDhw4cOHDhw4cOHDhw4cOHDhw4cOHDhwySQAAD+/58pp//+oLwAAAK3/tFAAAAARVhJRroAAABFeGlmAABJSSoACAAAAAYAEgEDAAEAAAABAAAAGgEFAAEAAABWAAAAGwEFAAEAAABeAAAAKAEDAAEAAAACAAAAEwIDAAEAAAABAAAAaYcEAAEAAABmAAAAAAAAAEgAAAABAAAASAAAAAEAAAAGAACQBwAEAAAAMDIxMAGRBwAEAAAAAQIDAACgBwAEAAAAMDEwMAGgAwABAAAA//8AAAKgBAABAAAAKAUAAAOgBAABAAAAAQAAAAAAAAA=" alt="">
-        </div>
-        
-    </section>
-   
-    <!-- Message End -->
+  
     
 
     <!-- Testimonial -->
@@ -442,9 +431,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="overflow-hidden subscribe-wrap position-relative z-index-one">
-                        <div class="text-center section-title">
+                        <div class=" section-title">
                             
-                            <p class="desc text_color_light_white">تعاون مع أوريون إنوفيشن لتحويل الأفكار إلى حلول مؤثرة وقيادة الطريق نحو النمو المستدام والابتكار.</p>
+                            <p class="text-center desc text_color_light_white">ابدأ رحلة الشراكة مع أوريون إنوفيشن.</p>
                         </div>
                         <div class="flex-wrap mt-4 two-btn-wrap mt-lg-5 d-flex justify-content-center">
                             
@@ -478,12 +467,12 @@
                     <div class="footer-link-wrap">
                         
                         <ul class="custom-ul footer-link" style="display: inline-block;">
-                           <li><a href="contactAr.html">تواصل معنا</a></li>
-                            <li><a href="#message-sec">رسالة المؤسس</a></li>
+                           <li><a href="contactAr.html">تواصل معنا</a></li>                           
                             <li><a href="#mission-sec">المهمة</a></li>
                             <li><a href="#values-sec">القيم</a></li>
                             <li><a href="#vision-sec">الرؤية</a></li>
                             <li><a href="#services-sec">الخدمات</a></li>
+                            <li><a href="#message-sec">رسالة المؤسس</a></li>
                             <li><a href="#about-sec">من نحن</a></li>
                             <li><a href=".">الرئيسية</a></li>
                         </ul>

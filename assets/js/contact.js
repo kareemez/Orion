@@ -20,18 +20,12 @@ $(document).ready(function () {
       data: JSON.stringify(formDataObject),
       contentType: "application/json",
       success: function (response) {
-        if (response.Success) {
+        if (response.status == "success") {
           Swal.fire({
             icon: "success",
             title: response.message,
           });
           form.reset();
-        } else if (response.errors) {
-          for (let key in response.errors) {
-            if (response.errors.hasOwnProperty(key)) {
-              $("#" + key + "_error").text(response.errors[key].join(", "));
-            }
-          }
         } else {
           Swal.fire({
             icon: "error",
