@@ -7,8 +7,8 @@
 /*CSS Variable*/
 :root {
   /*font Variable*/
-  --ff-inter: 'Inter', sans-serif;
-  --ff-inter-tight: 'Inter Tight', sans-serif;
+  --ff-century: 'Inter', sans-serif;
+  --ff-century-reg: 'Inter Tight', sans-serif;
   /*Color Variable*/
   --primary-black: #02021A;
   --primary-green: #1D9E43;
@@ -43,7 +43,7 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   text-transform: capitalize;
   color: var(--color-text-heading);
 }
@@ -84,7 +84,7 @@ html, body {
   font-weight: 400;
   font-size: 16px;
   line-height: 2;
-  font-family: var(--ff-inter-tight);
+  font-family: var(--ff-century-reg);
   color: var(--color-text-body);
 }
 
@@ -489,7 +489,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .section-title .sub-title {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.9px;
@@ -534,7 +534,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .section-title.gradient-sub-title .gradient-sub {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.9px;
@@ -599,7 +599,7 @@ body::-webkit-scrollbar-thumb {
 
 .section-title.border-style .border-sbu {
   color: var(--color-text-heading);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 20px;
   font-weight: 500;
   line-height: normal;
@@ -1617,7 +1617,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .industries-box .industries-info span {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
@@ -1764,7 +1764,7 @@ body::-webkit-scrollbar-thumb {
 7. Data CSS
 =================================================*/
 .data-info span {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
   font-weight: 500;
   line-height: normal;
@@ -2049,25 +2049,25 @@ body::-webkit-scrollbar-thumb {
 
 .sidebar-search input::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
 }
 
 .sidebar-search input:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
 }
 
 .sidebar-search input::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
 }
 
 .sidebar-search input::placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
 }
 
@@ -2138,7 +2138,7 @@ body::-webkit-scrollbar-thumb {
       -ms-flex-pack: justify;
           justify-content: space-between;
   text-transform: capitalize;
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
 }
 
@@ -2157,25 +2157,25 @@ body::-webkit-scrollbar-thumb {
 
 .sidebar-newsletter input::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
 }
 
 .sidebar-newsletter input:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
 }
 
 .sidebar-newsletter input::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
 }
 
 .sidebar-newsletter input::placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
 }
 
@@ -2388,7 +2388,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .wp-block-quote cite {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 22px;
   font-weight: 600;
   line-height: normal;
@@ -2401,7 +2401,7 @@ body::-webkit-scrollbar-thumb {
 .tag-list.blog-details-tag-list li {
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.1);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-style: italic;
   font-weight: 500;
   padding: 13px 28px;
@@ -2520,7 +2520,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .faq-wrap .accordion-item .accordion-button {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   color: var(--color-white);
   padding: 0 0 23px;
   font-size: 24px;
@@ -2763,7 +2763,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .faq-nav-list-wrap .nav-link .faq-list-title {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 24px;
   font-weight: 500;
   line-height: 166.667%;
@@ -3724,7 +3724,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 50px;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(-17.5%, rgba(255, 255, 255, 0.3)), color-stop(118.75%, rgba(255, 255, 255, 0)));
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) -17.5%, rgba(255, 255, 255, 0) 118.75%);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
   font-weight: 500;
   line-height: normal;
@@ -3901,7 +3901,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 12px;
   border-radius: 12px;
   background-color: rgba(255, 255, 255, 0.05);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   padding: 3px 15px;
 }
 
@@ -4013,7 +4013,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .switch-wrapper label {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 15px;
   font-weight: 500;
   letter-spacing: 0.9px;
@@ -4096,7 +4096,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .price-box .price-value-box .price-plan {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 14px;
   letter-spacing: 0.7px;
   border-radius: 60px;
@@ -4122,7 +4122,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .price-box .price-value-box h2 span {
-  font-family: var(--ff-inter-tight);
+  font-family: var(--ff-century-reg);
   font-size: 18px;
   font-weight: 400;
 }
@@ -4431,7 +4431,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .cg-price-wrap .cg-price-box .cg-price-value-box .price span {
-  font-family: var(--ff-inter-tight);
+  font-family: var(--ff-century-reg);
   font-size: 16px;
   font-weight: 400;
 }
@@ -4832,7 +4832,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .team-personal-data .team-dev-head .team-dev-title {
-  font-family: var(--ff-inter-tight);
+  font-family: var(--ff-century-reg);
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -4841,7 +4841,7 @@ body::-webkit-scrollbar-thumb {
 
 .team-personal-data .team-dev-head .team-dev-desc {
   margin-top: 40px;
-  font-family: var(--ff-inter-tight);
+  font-family: var(--ff-century-reg);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -4945,7 +4945,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .team-dev-skills .dev-skills-desc {
-  font-family: var(--ff-inter-tight);
+  font-family: var(--ff-century-reg);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -4963,7 +4963,7 @@ body::-webkit-scrollbar-thumb {
 .team-dev-skills .dev-skills-tags .tag-list li {
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.1);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-style: italic;
   font-weight: 500;
   padding: 13px 28px;
@@ -5869,7 +5869,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .table-content ul li a {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   color: var(--color-white);
   font-size: 20px;
   line-height: 190%;
@@ -5945,7 +5945,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .contact-card-box .contact-card-text .contact-card-desc {
-  font-family: var(--ff-inter-tight);
+  font-family: var(--ff-century-reg);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;

@@ -1,9 +1,20 @@
-
+@font-face {
+  font-family: 'CenturyGothicBold';
+  src: url('../fonts/century-gothic-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CenturyGothicRegular';
+  src: url('../fonts/century-gothic-regular.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 /*CSS Variable*/
 :root {
   /*font Variable*/
-  --ff-inter: 'Inter', sans-serif;
-  --ff-inter-tight: 'Inter Tight', sans-serif;
+  --ff-century: 'CenturyGothicBold', sans-serif;
+  --ff-century-reg: 'CenturyGothicRegular', sans-serif;
   /*Color Variable*/
   --primary-black: #02021A;
   --primary-green: #1D9E43;
@@ -38,7 +49,7 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   text-transform: capitalize;
   color: var(--color-text-heading);
 }
@@ -82,7 +93,7 @@ html, body {
   font-weight: 400;
   font-size: 16px;
   line-height: 2;
-  font-family: var(--ff-inter-tight);
+  font-family: var(--ff-century-reg);
   color: var(--color-text-body);
   background-color:black;
 }
@@ -488,7 +499,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .section-title .sub-title {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.9px;
@@ -533,7 +544,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .section-title.gradient-sub-title .gradient-sub {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.9px;
@@ -598,7 +609,7 @@ body::-webkit-scrollbar-thumb {
 
 .section-title.border-style .border-sbu {
   color: var(--color-text-heading);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 20px;
   font-weight: 500;
   line-height: normal;
@@ -933,7 +944,7 @@ body::-webkit-scrollbar-thumb {
 .mainmenu li {
   display: inline-block;
   position: relative;
-  padding: 0 40px 0 0;
+  padding: 0 30px 0 0;
 }
 
 @media only screen and (max-width: 1199.98px) {
@@ -1617,7 +1628,7 @@ border-radius: 8px;
 }
 
 .industries-box .industries-info span {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
@@ -1764,7 +1775,7 @@ border-radius: 8px;
 7. Data CSS
 =================================================*/
 .data-info span {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
   font-weight: 500;
   line-height: normal;
@@ -2049,25 +2060,25 @@ border-radius: 8px;
 
 .sidebar-search input::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
 }
 
 .sidebar-search input:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
 }
 
 .sidebar-search input::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
 }
 
 .sidebar-search input::placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
 }
 
@@ -2138,7 +2149,7 @@ border-radius: 8px;
       -ms-flex-pack: justify;
           justify-content: space-between;
   text-transform: capitalize;
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
 }
 
@@ -2157,25 +2168,25 @@ border-radius: 8px;
 
 .sidebar-newsletter input::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
 }
 
 .sidebar-newsletter input:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
 }
 
 .sidebar-newsletter input::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
 }
 
 .sidebar-newsletter input::placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
 }
 
@@ -2388,7 +2399,7 @@ border-radius: 8px;
 }
 
 .wp-block-quote cite {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 22px;
   font-weight: 600;
   line-height: normal;
@@ -2401,7 +2412,7 @@ border-radius: 8px;
 .tag-list.blog-details-tag-list li {
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.1);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-style: italic;
   font-weight: 500;
   padding: 13px 28px;
@@ -2520,7 +2531,7 @@ border-radius: 8px;
 }
 
 .faq-wrap .accordion-item .accordion-button {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   color: var(--color-white);
   padding: 0 0 23px;
   font-size: 24px;
@@ -2763,7 +2774,7 @@ border-radius: 8px;
 }
 
 .faq-nav-list-wrap .nav-link .faq-list-title {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 24px;
   font-weight: 500;
   line-height: 166.667%;
@@ -3727,7 +3738,7 @@ border-radius: 8px;
   border-radius: 50px;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(-17.5%, rgba(255, 255, 255, 0.3)), color-stop(118.75%, rgba(255, 255, 255, 0)));
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) -17.5%, rgba(255, 255, 255, 0) 118.75%);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 18px;
   font-weight: 500;
   line-height: normal;
@@ -3904,7 +3915,7 @@ border-radius: 8px;
   border-radius: 12px;
   border-radius: 12px;
   background-color: rgba(255, 255, 255, 0.05);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   padding: 3px 15px;
 }
 
@@ -4016,7 +4027,7 @@ border-radius: 8px;
 }
 
 .switch-wrapper label {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 15px;
   font-weight: 500;
   letter-spacing: 0.9px;
@@ -4099,7 +4110,7 @@ border-radius: 8px;
 }
 
 .price-box .price-value-box .price-plan {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-size: 14px;
   letter-spacing: 0.7px;
   border-radius: 60px;
@@ -4125,7 +4136,7 @@ border-radius: 8px;
 }
 
 .price-box .price-value-box h2 span {
-  font-family: var(--ff-inter-tight);
+  font-family: var(--ff-century-reg);
   font-size: 18px;
   font-weight: 400;
 }
@@ -4434,7 +4445,7 @@ border-radius: 8px;
 }
 
 .cg-price-wrap .cg-price-box .cg-price-value-box .price span {
-  font-family: var(--ff-inter-tight);
+  font-family: var(--ff-century-reg);
   font-size: 16px;
   font-weight: 400;
 }
@@ -4835,7 +4846,7 @@ border-radius: 8px;
 }
 
 .team-personal-data .team-dev-head .team-dev-title {
-  font-family: var(--ff-inter-tight);
+  font-family: var(--ff-century-reg);
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -4844,7 +4855,7 @@ border-radius: 8px;
 
 .team-personal-data .team-dev-head .team-dev-desc {
   margin-top: 40px;
-  font-family: var(--ff-inter-tight);
+  font-family: var(--ff-century-reg);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -4948,7 +4959,7 @@ border-radius: 8px;
 }
 
 .team-dev-skills .dev-skills-desc {
-  font-family: var(--ff-inter-tight);
+  font-family: var(--ff-century-reg);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -4966,7 +4977,7 @@ border-radius: 8px;
 .team-dev-skills .dev-skills-tags .tag-list li {
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.1);
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   font-style: italic;
   font-weight: 500;
   padding: 13px 28px;
@@ -5872,7 +5883,7 @@ border-radius: 8px;
 }
 
 .table-content ul li a {
-  font-family: var(--ff-inter);
+  font-family: var(--ff-century);
   color: var(--color-white);
   font-size: 20px;
   line-height: 190%;
@@ -5948,7 +5959,7 @@ border-radius: 8px;
 }
 
 .contact-card-box .contact-card-text .contact-card-desc {
-  font-family: var(--ff-inter-tight);
+  font-family: var(--ff-century-reg);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
