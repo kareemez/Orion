@@ -6004,12 +6004,6 @@ border-radius: 8px;
 /* ============================================
    Partners Section
    ============================================ */
-.text-gradient {
-  background: linear-gradient(90deg, #8A56F7 0%, #FF4DB8 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
 
 .partners-grid .partner-card {
   display: flex;
@@ -6023,6 +6017,15 @@ border-radius: 8px;
   color: var(--color-white);
   background: rgba(255, 255, 255, 0.03);
   transition: border-color .2s ease, transform .2s ease, background .2s ease;
+}
+
+.partners-grid .partner-card { gap: 10px; }
+.partners-grid .partner-card .partner-icon {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  object-fit: contain;
+  opacity: 0.9;
 }
 
 .partners-grid .partner-card:hover {
