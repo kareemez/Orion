@@ -1509,6 +1509,9 @@ border-radius: 8px;
 /*================================================
 4. Service CSS
 =================================================*/
+.service-box-wrap div {
+  min-height: 440px;
+}
 .service-box-wrap {
   padding: 1px;
   overflow: hidden;
